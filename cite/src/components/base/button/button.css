@@ -30,6 +30,18 @@
     color: black;    
 }
 
+.button[data-width="sm"] {
+    padding-inline: 28.5px;
+}
+
+.button[data-width="md"] {
+    padding-inline: 39px;
+}
+
+.button[data-width="lg"] {
+    padding-inline: 58px;
+}
+
 
 
 
