@@ -6,6 +6,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <h1>as</h1>
-    <Button size="lg">sds</Button>
+    <Button size="md" variant="outline">sds</Button>
   </React.StrictMode>,
 );
