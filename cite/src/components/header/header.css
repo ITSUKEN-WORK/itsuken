@@ -1,5 +1,12 @@
 .header {
-    padding: 22px 97px 10px 97px ;
+    padding: 40px 97px 10px 97px ;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .nav-bar_element {
@@ -13,8 +20,9 @@
     text-transform: uppercase;
 }
 
-.header-row{
+.nav-bar {
     display: flex;
-    justify-content: space-between;
+    column-gap: 43px;
     align-items: center;
+    justify-content: center;
 }

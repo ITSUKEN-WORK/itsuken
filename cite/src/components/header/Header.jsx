@@ -11,10 +11,10 @@ function Header() {
             <p1 className="LOGO">LOGO</p1>
           </div>
           <nav className="nav-bar">
-            <a href="#!" className="nav-bar_element">q</a>
-            <a href="#!" className="nav-bar_element">q</a>
-            <a href="#!" className="nav-bar_element">q</a>
-            <a href="#!" className="nav-bar_element">q</a>
+            <a href="#!" className="nav-bar_element">о нас</a>
+            <a href="#!" className="nav-bar_element">услуги</a>
+            <a href="#!" className="nav-bar_element">портфолио</a>
+            <a href="#!" className="nav-bar_element">контакты</a>
             <Button variant="filled" width="sm" size="md">СВЯЗАТЬСЯ С НАМИ</Button>
           </nav>
         </div>
