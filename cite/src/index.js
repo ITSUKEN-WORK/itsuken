@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Button from './components/base/button/Button';
+import App from './components/app/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>as</h1>
-    <Button variant="filled" size="lg" width="sm">asdasdasd </Button>
+    <App />
   </React.StrictMode>,
 );
