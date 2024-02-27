@@ -1,0 +1,23 @@
+
+.texBlock_element{
+    font-family: Montserrat;
+    font-size: 36px;
+    color: #BD8DFF;
+}
+.texBlock_element2{
+    width: 388px;
+    height: 42px;
+    font-family: Raleway;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+}
+.textBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.services{
+    padding: 183px 83px 748px 113px;
+}
