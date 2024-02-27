@@ -1,7 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Home() {
-  return <h1>Главная</h1>;
+export default function Home() {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <Link to="/aboutUs">О нас</Link>
+        </li>
+        <li>
+          <Link to="/services">Услуги</Link>
+        </li>
+        <li>
+          <Link to="/portfolio">Портфолио</Link>
+        </li>
+        <li>
+          <Link to="/contacts">Контакты</Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
-
-export default Home;
