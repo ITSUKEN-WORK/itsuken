@@ -1,11 +1,12 @@
 import React from 'react';
-import './HomePage.css';
+import './AboutUs.css';
 import Button from '../base/button/Button';
+import ContactButtons from '../contactButtons/ContactButtons';
 
-function HomePage() {
+function AboutUs() {
   return (
     <div className="homePage">
-      <div className="aboutUs">
+      <div className="aboutUs_block">
         <div className="title">ВАШ ЦИФРОВОЙ МИР НАЧИНАЕТСЯ ЗДЕСЬ</div>
         <div className="text">
           В целом, конечно, сплочённость команды
@@ -18,6 +19,7 @@ function HomePage() {
         </div>
         <div className="feedBack">
           <Button variant="filled" width="md" size="md">ПОДРОБНЕЕ</Button>
+          <ContactButtons />
         </div>
       </div>
       <div className="image" />
@@ -25,4 +27,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default AboutUs;
