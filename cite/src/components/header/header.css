@@ -1,0 +1,28 @@
+.header {
+    padding: 40px 97px 10px 97px ;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-bar_element {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-bar {
+    display: flex;
+    column-gap: 43px;
+    align-items: center;
+    justify-content: center;
+}
