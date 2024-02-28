@@ -9,8 +9,8 @@ namespace api.Controllers
     public class EmailController(ILogger<EmailController> logger) : Controller
     {
         private readonly ILogger<EmailController> _logger = logger;
-        private readonly string _emailAdm = "klabu2016@mail.ru";
-        private readonly string _smtpKeyAdm = "cAdTFjtDXZeH7kqjTQA2";
+        private readonly string _emailAdm = "itsuken.work@mail.ru";
+        private readonly string _smtpKeyAdm = "u6kzcbaivu1vkUdzyHiY";
         private readonly string _smtpHostAdm = "smtp.mail.ru";
 
         [HttpPost("send-to-server")]
