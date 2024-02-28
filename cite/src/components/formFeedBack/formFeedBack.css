@@ -1,0 +1,47 @@
+.formFeedBack {
+
+    width: 620px;
+    height: 320px;
+    border: double 1px transparent;
+    border-radius: 0 24px 24px 24px;
+    background-image: linear-gradient(#F2F2F2, #F2F2F2), radial-gradient(circle at top left, rgba(99, 132, 250, 1), rgba(189, 141, 255, 1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.textBox {
+    width: 550px;
+    height: 50px;
+    border: double 1px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(242, 242, 242, 1), rgba(242, 242, 242, 1)), radial-gradient(circle at top left, rgba(99, 132, 250, 1), rgba(189, 141, 255, 1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedbackButtons {
+    display: flex;
+    width: 550px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+input {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: left;
+    text-indent: 32px;
+}
