@@ -31,3 +31,6 @@
 /home/fokstal/Репозитории/itsuken/api/obj/Debug/net8.0/api.pdb
 /home/fokstal/Репозитории/itsuken/api/obj/Debug/net8.0/api.genruntimeconfig.cache
 /home/fokstal/Репозитории/itsuken/api/obj/Debug/net8.0/ref/api.dll
+/home/fokstal/Репозитории/itsuken/api/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/home/fokstal/Репозитории/itsuken/api/bin/Debug/net8.0/MailKit.dll
+/home/fokstal/Репозитории/itsuken/api/bin/Debug/net8.0/MimeKit.dll

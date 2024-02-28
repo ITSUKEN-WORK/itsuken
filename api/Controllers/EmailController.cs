@@ -1,28 +1,36 @@
 using api.Models.DTO;
+using api.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace api.Controllers
 {
     [Route("email/")]
-    public class EmailController : Controller
+    [ApiController]
+    public class EmailController(ILogger<EmailController> logger) : Controller
     {
-        private readonly ILogger<EmailController> _logger;
-
-        public EmailController(ILogger<EmailController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly ILogger<EmailController> _logger = logger;
+        private readonly string _emailAdm = "klabu2016@mail.ru";
+        private readonly string _smtpKeyAdm = "cAdTFjtDXZeH7kqjTQA2";
+        private readonly string _smtpHostAdm = "smtp.mail.ru";
 
         [HttpPost("send-to-server")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status503ServiceUnavailable)]
         public async Task<IActionResult> SendToServerAsync([FromBody] CustomerDataDTO customerData)
         {
-            if (!ModelState.IsValid) return BadRequest();
-            
-            return Ok($"Hello! My name is {customerData.Name}. Email: {customerData.Email}." + "\n" + customerData.Message);
+            EmailSendler email = new(_emailAdm, _smtpKeyAdm, _smtpHostAdm);
+
+            try
+            {
+                await email.SendToAdmin(customerData.Email!, $"Questions on {customerData.Name}", $"<h3>{customerData.Message}</h3>");
+
+                return NoContent();
+            }
+            catch
+            {
+                return StatusCode(500);
+            }
         }
     }
 }
