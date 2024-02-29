@@ -2,24 +2,21 @@ using api.Models.DTO;
 using api.Service;
 using Microsoft.AspNetCore.Mvc;
 
+using static api.WC;
+
 namespace api.Controllers
 {
     [Route("email/")]
     [ApiController]
-    public class EmailController(ILogger<EmailController> logger) : Controller
+    public class EmailController() : Controller
     {
-        private readonly ILogger<EmailController> _logger = logger;
-        private readonly string _emailAdm = "itsuken.work@mail.ru";
-        private readonly string _smtpKeyAdm = "u6kzcbaivu1vkUdzyHiY";
-        private readonly string _smtpHostAdm = "smtp.mail.ru";
-
         [HttpPost("send-to-server")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> SendToServerAsync([FromBody] CustomerDataDTO customerData)
         {
-            EmailSendler email = new(_emailAdm, _smtpKeyAdm, _smtpHostAdm);
+            EmailSendler email = new(EMAIL_ADMIN, SMTP_KEY_ADMIN, SMTP_HOST_ADMIN);
 
             try
             {
