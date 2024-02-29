@@ -1,0 +1,33 @@
+.cardContainer {
+    width: 216px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 24px;
+    border: transparent 1px solid;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(180deg, #6384FA 0%, #B37CFF 100%) border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 33px;
+    padding: 42px 8px;
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    max-width: 90px;
+    text-align: center;
+}
+
+.description {
+    font-family: Montserrat;
+    font-size: 14px;
+    max-width: 145px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
