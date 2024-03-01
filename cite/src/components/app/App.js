@@ -7,12 +7,12 @@ import Portfolio from '../pages/Portfolio/Portfolio';
 import Contacts from '../pages/Contacts/Contacts';
 import NoPage from '../pages/No Page/NoPage';
 import Home from '../pages/Home/Home';
-import Header from '../header/Header';
+// import Header from '../header/Header';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="aboutUs" element={<AboutUs />} />
