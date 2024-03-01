@@ -1,9 +1,11 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM mcr.microsoft.com/dotnet/sdk:8.0
 
 WORKDIR /app
 
-RUN dotnet run
-
 COPY . .
+
+RUN dotnet build
+
+EXPOSE 5216
 
 ENTRYPOINT ["dotnet", "bin/Debug/net8.0/api.dll"]
