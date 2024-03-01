@@ -11,7 +11,7 @@ namespace api.Controllers
     public class EmailController() : Controller
     {
         [HttpPost("send-to-server")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> SendToServerAsync([FromBody] CustomerDataDTO customerData)
@@ -22,7 +22,7 @@ namespace api.Controllers
             {
                 await email.SendToAdmin(customerData.Email!, $"Questions on {customerData.Name}", $"<h3>{customerData.Message}</h3>");
 
-                return NoContent();
+                return Ok("Email has been sanded");
             }
             catch
             {
