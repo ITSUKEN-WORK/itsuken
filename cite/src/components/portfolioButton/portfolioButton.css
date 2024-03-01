@@ -1,0 +1,13 @@
+.portfolio_button {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    color: #F2F2F2;
+    padding-inline: 61px;
+    padding-block: 47px;
+    border-radius: 24px;
+    border: none;
+    background-image: url('../portfolio/picture/unsplash_ceBLAyzO_bQ.png');
+}
