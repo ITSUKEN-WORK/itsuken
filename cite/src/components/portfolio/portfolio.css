@@ -1,0 +1,49 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-head{
+    display: flex;
+    padding: 43px 100px 43px 100px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1241px;
+}
+
+.description{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width:  400px;
+}
+
+.title{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.025em;
+    text-align: right;
+    color: radial-gradient(311.46% 1070.82% at 11.9% -144.32%, #6384FA 0%, #BD8DFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+
+.cards_column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cart-container{
+    display: flex;
+    column-gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1241px;
+}
+

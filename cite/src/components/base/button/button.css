@@ -1,0 +1,48 @@
+.button {
+    border-radius: 16px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-inline: 28.5px;
+    text-transform: uppercase;
+}
+
+.button[data-size="md"] {
+    padding-block: 13.5px;
+}
+
+.button[data-size="lg"] {
+    padding-block: 16.5px;
+}
+
+.button[data-variant="filled"] {
+    background: linear-gradient(180deg, #6384FA 0%, #B37CFF 100%);
+    color: white;    
+}
+
+.button[data-variant="outlined"] {
+    border: transparent 1px solid;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(180deg, #6384FA 0%, #B37CFF 100%) border-box;
+    color: black;    
+}
+
+.button[data-width="sm"] {
+    padding-inline: 28.5px;
+}
+
+.button[data-width="md"] {
+    padding-inline: 39px;
+}
+
+.button[data-width="lg"] {
+    padding-inline: 58px;
+}
+
+
+
+
+
