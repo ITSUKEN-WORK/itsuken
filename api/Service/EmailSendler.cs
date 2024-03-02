@@ -1,3 +1,4 @@
+using api.Models.DTO;
 using MailKit.Net.Smtp;
 using MimeKit;
 
@@ -32,16 +33,16 @@ namespace api.Service
             }
         }
 
-        public async Task SendToAdmin(string email, string subject, string message)
+        public async Task SendToAdmin(CustomerDataDTO customerData)
         {
             using var emailMessage = new MimeMessage();
  
             emailMessage.From.Add(new MailboxAddress("itsuken.MessageCustomer", _emailFrom));
             emailMessage.To.Add(new MailboxAddress("", _emailFrom));
-            emailMessage.Subject = subject + " - " + email;
+            emailMessage.Subject = $"Questions on {customerData.Name}" + " - " + customerData.Email;
             emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
             {
-                Text = message
+                Text = HtmlWorker.GetAdminMessage(customerData.Name, customerData.Email, customerData.Message)
             };
              
             using (var client = new SmtpClient())

@@ -9,7 +9,7 @@ namespace api.Controllers
     [Route("email/")]
     [ApiController]
     public class EmailController() : Controller
-    {
+    {   
         [HttpPost("send-to-server")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -20,7 +20,7 @@ namespace api.Controllers
 
             try
             {
-                await email.SendToAdmin(customerData.Email!, $"Questions on {customerData.Name}", $"<h3>{customerData.Message}</h3>");
+                await email.SendToAdmin(customerData);
 
                 return Ok("Email has been sanded");
             }
