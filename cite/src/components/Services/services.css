@@ -16,8 +16,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 69px;
     
 }
 .services{
     padding: 183px 83px 748px 113px;
+
+}
+
+.cards{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
