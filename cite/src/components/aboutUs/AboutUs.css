@@ -1,17 +1,16 @@
 .homePage{
     width: 1241px;
-    height: 984px;
-    padding: 0 97px 0 97px;
-    position: absolute;
+    height: 600px;
     display: flex;
+    margin: auto;
     justify-content: space-between;
+    align-items: center;
 
 }
 .aboutUs_block{
-    position: relative;
+    
     width: 474px;
     height: 435px;
-    top: 162px;
 }
 .title{
     width: 474px;
@@ -41,8 +40,6 @@ height: 600px;
 width: 630px;
 background-image: url('\\svg\\karakulz.svg');
 background-size: cover;
-position: relative;
-top: 100px;
 filter: drop-shadow(5px 10px 200px rgba(189, 141, 255, 1));
 }
 .feedBack{
