@@ -1,0 +1,28 @@
+#api
+
+/api/bin
+/api/obj
+
+# cite
+
+# dependencies
+cite/node_modules
+cite/.pnp
+cite/.pnp.js
+
+# testing
+cite/coverage
+
+# production
+cite/build
+
+# misc
+cite/.DS_Store
+cite/.env.local
+cite/.env.development.local
+cite/.env.test.local
+cite/.env.production.local
+
+cite/npm-debug.log*
+cite/yarn-debug.log*
+cite/yarn-error.log*

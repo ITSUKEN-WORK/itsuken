@@ -1,0 +1,91 @@
+.containerIcons {
+    width: 558px;
+    height: 361px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.line {
+    width: 458px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.firstLine {
+    margin-left: 0;
+}
+
+.secondLine {
+    margin-left: 50px;
+}
+
+.thierdLine {
+    margin-left: 100px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    border: double 1px transparent;
+    border-radius: 0 24px 24px 24px;
+    box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+.brinkPink {
+    background-image: linear-gradient(#FA6390, #FA6390), radial-gradient(circle at top left, #fa6390b3, #fa6390b3);
+
+
+}
+
+.pinkFlamingo {
+    background-image: linear-gradient(#EE63FA, #EE63FA), radial-gradient(circle at top left, #EE63FAb3, #EE63FAb3);
+
+}
+
+.mediumPurple {
+    background-image: linear-gradient(#AD72FF, #AD72FF), radial-gradient(circle at top left, #AD72FFb3, #AD72FFb3);
+
+}
+
+.cornflowerBlue {
+    background-image: linear-gradient(#6384FA, #6384FA), radial-gradient(circle at top left, #6384FAb3, #6384FAb3);
+}
+
+.aquamarine {
+    background-image: linear-gradient(#63FAD6, #63FAD6), radial-gradient(circle at top left, #63FAD6b3, #63FAD6b3);
+}
+
+.bittersweet {
+    background-image: linear-gradient(#FF6262, #FF6262), radial-gradient(circle at top left, #FF6262b3, #FF6262b3);
+}
+
+.fog {
+    background-image: linear-gradient(#DCC6FB, #DCC6FB), radial-gradient(circle at top left, #DCC6FBb3, #DCC6FBb3);
+}
+
+.sapphire {
+    background-image: linear-gradient(#112467, #112467), radial-gradient(circle at top left, #112467b3, #112467b3);
+}
+
+.turquoiseBlue {
+    background-image: linear-gradient(#63DFFA, #63DFFA), radial-gradient(circle at top left, #63DFFAb3, #63DFFAb3);
+}
+
+.corn {
+    background-image: linear-gradient(#FAEB63, #FAEB63), radial-gradient(circle at top left, #FAEB63b3, #FAEB63b3);
+}
+
+.atomicTangerine {
+    background-image: linear-gradient(#FA9A63, #FA9A63), radial-gradient(circle at top left, #FA9A63b3, #FA9A63b3);
+}
+
+.feijoa {
+    background-image: linear-gradient(#93FA63, #93FA63), radial-gradient(circle at top left, #93FA63b3, #93FA63b3);
+}

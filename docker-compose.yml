@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  client:
+    container_name: client
+    build: 
+      context: ./client/
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - api
+    networks:
+      - app-network
+    environment:
+      - REACT_APP_IP=localhost:5177
+
+  api:
+    container_name: api
+    build: 
+      context: ./api/
+      dockerfile: Dockerfile
+    ports:
+      - 5177:8080
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
