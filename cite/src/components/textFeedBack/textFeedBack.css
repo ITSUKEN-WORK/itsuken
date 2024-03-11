@@ -1,0 +1,33 @@
+.feedback__title__text {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    background-image: linear-gradient(90deg, rgba(99, 132, 250, 1), rgba(189, 141, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width:480px;
+    text-align: left;
+    margin: 0;
+}
+
+.feedback__description__text {
+    margin: 0;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    text-align: left;
+    max-width: 388px;
+}
+
+.text__feedback{
+    display: flex;
+    flex-direction: column;
+    row-gap: 129px;
+}
