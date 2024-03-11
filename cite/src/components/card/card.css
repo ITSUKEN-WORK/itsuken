@@ -16,7 +16,7 @@
   margin-left: 52px;
   border-radius: 16px;
 }
-.title{
+.card__title{
   width: 454px;
   height: 44px;
   font-family: Montserrat;
@@ -28,7 +28,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.text{
+.card__text{
   width: 452px;
   height: 147px;
   margin-top: 25px;
