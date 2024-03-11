@@ -1,0 +1,7 @@
+.feedback{
+    display: flex;
+    column-gap: 148px;
+    max-width: 1241px;
+    padding: 0px 97px 153px 97px ;
+    margin: auto;
+}

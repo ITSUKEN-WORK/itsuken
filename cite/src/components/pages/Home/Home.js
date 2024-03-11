@@ -3,7 +3,7 @@ import AboutUs from '../../aboutUs/AboutUs';
 import OurTools from '../../ourTools/OurTools';
 import Services from '../../Services/Services';
 import Portfolio from '../../portfolio/Portfolio';
-import TextFeedBack from '../../textFeedBack/TextFeedBack';
+import FeedBack from '../../feedBack/FeedBack';
 
 export default function Home() {
   return (
@@ -12,10 +12,7 @@ export default function Home() {
       <OurTools />
       <Services />
       <Portfolio />
-      <TextFeedBack>
-        Какой нибудь отличный тейк о том какие
-        мы специалисты и воплотим все ваши мечты
-      </TextFeedBack>
+      <FeedBack />
     </div>
 
   );
