@@ -1,8 +1,8 @@
 .header {
     width: 1241px;
     padding: 20px 97px 10px 97px ;
-    position:fixed;
-    top: 0;
+    margin: auto;
+   
 }
 
 .header-row {
