@@ -12,7 +12,7 @@
     max-width: 1241px;
 }
 
-.description{
+.portfolio__description{
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
@@ -22,14 +22,16 @@
     max-width:  400px;
 }
 
-.title{
+.portfolio__title__text{
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0.025em;
     text-align: right;
-    color: radial-gradient(311.46% 1070.82% at 11.9% -144.32%, #6384FA 0%, #BD8DFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-image: linear-gradient(90deg, rgba(99, 132, 250, 1), rgba(189, 141, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 

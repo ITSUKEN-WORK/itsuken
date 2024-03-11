@@ -13,13 +13,13 @@ function Portfolio() {
       <div className="portfolio-container">
         <div className="portfolio-head">
           <div className="portfolio-description">
-            <p className="description">
+            <p className="portfolio__description">
               Какой нибудь отличный тейк о том какие
               мы специалисты и воплотим все ваши мечты
             </p>
           </div>
           <div className="portfolio-title">
-            <p className="title">НАШЕ ПОРТФОЛИО</p>
+            <p className="portfolio__title__text">НАШЕ ПОРТФОЛИО</p>
           </div>
         </div>
         <div className="cart-container">

@@ -1,6 +1,6 @@
 .cardContainer {
     width: 216px;
-    min-height: 299px;
+    min-height: 380px;
     box-shadow: 6px 6px white, 10px 10px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
     border-radius: 24px;
@@ -14,7 +14,7 @@
     padding: 42px 8px;
 }
 
-.title {
+.services__card__title {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.description {
+.services__card__description {
     font-family: Montserrat;
     font-size: 14px;
     max-width: 145px;

@@ -16,7 +16,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 69px;
+    padding: 0px 97px 69px 97px ;
+    max-width: 1244px;
+    margin: auto;
+    
+    
     
 }
 .services{
