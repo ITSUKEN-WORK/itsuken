@@ -3,7 +3,7 @@ services:
   client:
     container_name: client
     build: 
-      context: ./client/
+      context: ./cite/
       dockerfile: Dockerfile
     ports:
       - 3000:3000
@@ -11,8 +11,6 @@ services:
       - api
     networks:
       - app-network
-    environment:
-      - REACT_APP_IP=localhost:5177
 
   api:
     container_name: api
@@ -20,7 +18,7 @@ services:
       context: ./api/
       dockerfile: Dockerfile
     ports:
-      - 5177:8080
+      - 5216:8080
     networks:
       - app-network
 
