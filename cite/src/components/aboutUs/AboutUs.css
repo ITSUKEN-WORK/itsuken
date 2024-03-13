@@ -1,18 +1,19 @@
-.homePage{
+.homePage {
     width: 1241px;
     height: 600px;
     display: flex;
     margin: auto;
     justify-content: space-between;
     align-items: center;
-
+    padding: 0px 97px 106.5px 97px ;
 }
-.aboutUs_block{
-    
+
+.aboutUs_block {
     width: 474px;
     height: 435px;
 }
-.title{
+
+.aboutUs__title {
     width: 474px;
     height: 165px;
     font-family: Montserrat;
@@ -24,7 +25,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.text{
+
+.aboutUs__text {
     width: 474px;
     height: 147px;
     font-family: Raleway;
@@ -35,14 +37,16 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.image{
+
+.image {
 height: 600px;
 width: 630px;
 background-image: url('./svg/karakulz.svg');
 background-size: cover;
 filter: drop-shadow(5px 10px 200px rgba(189, 141, 255, 1));
 }
-.feedBack{
+
+.feedBack {
     display: flex;
     align-items: center;
     justify-content: space-between;

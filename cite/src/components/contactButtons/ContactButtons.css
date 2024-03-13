@@ -1,22 +1,25 @@
-.Container{
+.Container {
     height: 25px;
     width: 115px;
     display: flex;
     justify-content: space-between;
 }
-.Viber{
+
+.Viber {
     height: 25px;
     width: 25px;
     background-image: url('./svg/viber.svg');
     background-size: cover;
 }
-.Telegram{
+
+.Telegram {
     height: 25px;
     width: 25px;
     background-image: url('./svg/telegram.svg');
     background-size: cover;
 }
-.WhatsUp{
+
+.WhatsUp { 
     height: 25px;
     width: 25px;
     background-image: url('./svg/whatsapp.svg');

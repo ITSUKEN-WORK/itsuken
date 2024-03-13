@@ -1,0 +1,13 @@
+.our__tools {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.our__tools-container {
+    display: flex;
+    column-gap: 62px;
+    padding: 50px 97px 202px 97px ;
+    margin:auto;
+}
+

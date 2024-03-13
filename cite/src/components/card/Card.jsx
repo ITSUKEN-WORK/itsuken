@@ -6,8 +6,8 @@ function Card() {
   return (
     <div className="card">
       <div className="right_text_container">
-        <div className="title">НАШИ ИНСТРУМЕНТЫ</div>
-        <div className="text">
+        <div className="card__title">НАШИ ИНСТРУМЕНТЫ</div>
+        <div className="card__text">
           В целом, конечно, сплочённость команды
           профессионалов, в своём классическом
           представлении, допускает внедрение укрепления моральных ценностей.

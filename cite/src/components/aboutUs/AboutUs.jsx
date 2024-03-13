@@ -7,8 +7,8 @@ function AboutUs() {
   return (
     <div className="homePage">
       <div className="aboutUs_block">
-        <div className="title">ВАШ ЦИФРОВОЙ МИР НАЧИНАЕТСЯ ЗДЕСЬ</div>
-        <div className="text">
+        <div className="aboutUs__title">ВАШ ЦИФРОВОЙ МИР НАЧИНАЕТСЯ ЗДЕСЬ</div>
+        <div className="aboutUs__text">
           В целом, конечно, сплочённость команды
           профессионалов, в своём классическом
           представлении, допускает внедрение укрепления
