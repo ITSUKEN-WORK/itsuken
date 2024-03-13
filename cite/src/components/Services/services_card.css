@@ -43,6 +43,7 @@
     background: linear-gradient(180deg, #B7C6FF 0%, #E3CEFF 100%);
     box-shadow: 10px 10px 4px 0px #00000040;
 }
+
 .cardContainer:hover .button[data-variant="outlined"] {
     background: linear-gradient(180deg, #6384FA 0%, #B37CFF 100%);
     color: white;

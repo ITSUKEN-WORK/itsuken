@@ -1,9 +1,10 @@
 
-.texBlock_element{
+.texBlock_element {
     font-family: Montserrat;
     font-size: 36px;
     color: #BD8DFF;
 }
+
 .texBlock_element2{
     width: 388px;
     height: 42px;
@@ -12,23 +13,22 @@
     color: black;
     text-align: right;
 }
-.textBlock{
+
+.textBlock {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 97px 69px 97px ;
     max-width: 1244px;
     margin: auto;
-    
-    
-    
 }
-.services{
+
+.services {
     padding: 183px 83px 284px 113px;
 
 }
 
-.cards{
+.cards {
     display: flex;
     column-gap: 20px;
     align-items: center;

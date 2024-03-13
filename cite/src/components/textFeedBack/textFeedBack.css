@@ -26,7 +26,7 @@
     max-width: 388px;
 }
 
-.text__feedback{
+.text__feedback {
     display: flex;
     flex-direction: column;
     row-gap: 129px;

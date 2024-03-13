@@ -1,4 +1,4 @@
-.card{
+.card {
     width: 621px;
     height: 361px;
     border: double 1px transparent;
@@ -7,16 +7,17 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
-    
 }
-.right_text_container{
+
+.right_text_container {
   width: 456px;
   height: 284.73px;
   margin-top: 32px;
   margin-left: 52px;
   border-radius: 16px;
 }
-.card__title{
+
+.card__title {
   width: 454px;
   height: 44px;
   font-family: Montserrat;
@@ -28,7 +29,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.card__text{
+.card__text { 
   width: 452px;
   height: 147px;
   margin-top: 25px;

@@ -1,11 +1,11 @@
-.portfolio{
+.portfolio { 
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 129px;
 }
 
-.portfolio-head{
+.portfolio-head {
     display: flex;
     padding: 43px 100px 43px 100px;
     align-items: center;
@@ -13,7 +13,7 @@
     max-width: 1241px;
 }
 
-.portfolio__description{
+.portfolio__description {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
@@ -23,7 +23,7 @@
     max-width:  400px;
 }
 
-.portfolio__title__text{
+.portfolio__title__text {
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 600;
@@ -33,16 +33,15 @@
     background-image: linear-gradient(90deg, rgba(99, 132, 250, 1), rgba(189, 141, 255, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
-.cards_column{
+.cards_column {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
-.cart-container{
+.cart-container {
     display: flex;
     column-gap: 20px;
     padding-left: 100px;
