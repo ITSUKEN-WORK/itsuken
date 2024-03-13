@@ -38,7 +38,7 @@
 .image{
 height: 600px;
 width: 630px;
-background-image: url('\\svg\\karakulz.svg');
+background-image: url('./svg/karakulz.svg');
 background-size: cover;
 filter: drop-shadow(5px 10px 200px rgba(189, 141, 255, 1));
 }
